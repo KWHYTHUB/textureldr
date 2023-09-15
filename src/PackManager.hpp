@@ -2,7 +2,7 @@
 
 #include "Pack.hpp"
 #include <unordered_map>
-#include <Geode/utils/cocos.hpp>
+#include <Sapphire/utils/cocos.hpp>
 
 enum class PackListType {
     Available,
@@ -28,7 +28,7 @@ public:
 
     void savePacks();
     size_t loadPacks();
-    void applyPacks(geode::cocos::CreateLayerFunc func = nullptr);
+    void applyPacks(sapphire::cocos::CreateLayerFunc func = nullptr);
 
     ghc::filesystem::path getPackDir() const;
 };

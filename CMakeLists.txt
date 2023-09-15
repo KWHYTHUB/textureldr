@@ -10,13 +10,13 @@ file(GLOB SOURCES
 
 add_library(${PROJECT_NAME} SHARED ${SOURCES})
 
-if (NOT DEFINED ENV{GEODE_SDK})
-    message(FATAL_ERROR "Unable to find Geode SDK! Please define GEODE_SDK environment variable to point to Geode")
+if (NOT DEFINED ENV{SAPPHIRE_SDK})
+    message(FATAL_ERROR "Unable to find Sapphire SDK! Please define SAPPHIRE_SDK environment variable to point to Sapphire")
 else()
-    message(STATUS "Found Geode: $ENV{GEODE_SDK}")
+    message(STATUS "Found Sapphire: $ENV{SAPPHIRE_SDK}")
 endif()
 
-add_subdirectory($ENV{GEODE_SDK} ${CMAKE_CURRENT_BINARY_DIR}/geode)
+add_subdirectory($ENV{SAPPHIRE_SDK} ${CMAKE_CURRENT_BINARY_DIR}/sapphire)
 
-# Set up dependencies, resources, link Geode
-setup_geode_mod(${PROJECT_NAME})
+# Set up dependencies, resources, link Sapphire
+setup_sapphire_mod(${PROJECT_NAME})

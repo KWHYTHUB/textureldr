@@ -14,7 +14,7 @@
 #ifndef SOURCE_PUGIXML_CPP
 #define SOURCE_PUGIXML_CPP
 
-#include <Geode/cocos/robtop/xml/pugixml.hpp>
+#include <Sapphire/cocos/robtop/xml/pugixml.hpp>
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -5099,7 +5099,7 @@ namespace pugi
 		}
 	}
 
-#ifndef GEODE_IS_MACOS
+#ifndef SAPPHIRE_IS_MACOS
 
 	PUGI__FN xml_document::xml_document(): _buffer(0)
 	{

@@ -1,6 +1,6 @@
 #include "PackNode.hpp"
-#include <Geode/binding/ButtonSprite.hpp>
-#include <Geode/binding/CCMenuItemToggler.hpp>
+#include <Sapphire/binding/ButtonSprite.hpp>
+#include <Sapphire/binding/CCMenuItemToggler.hpp>
 #include "PackManager.hpp"
 #include "PackSelectLayer.hpp"
 #include "PackInfoPopup.hpp"
@@ -34,7 +34,7 @@ bool PackNode::init(
     menu->setPosition(menuPosX, HEIGHT / 2);
     menu->setID("pack-button-menu");
     
-    auto logo = CCSprite::createWithSpriteFrameName("geode.loader/no-logo.png");
+    auto logo = CCSprite::createWithSpriteFrameName("sapphire.loader/no-logo.png");
     logo->setPosition({ SPACE_FOR_LOGO / 2 + PADDING, HEIGHT / 2 });
     limitNodeSize(logo, { HEIGHT - PADDING * 2, HEIGHT - PADDING * 2 }, 1.f, .1f);
     this->addChild(logo);

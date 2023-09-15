@@ -1,8 +1,8 @@
 #pragma once
 
-#include <Geode/Geode.hpp>
+#include <Sapphire/Sapphire.hpp>
 
-using namespace geode::prelude;
+using namespace sapphire::prelude;
 
 class DragThingy : public CCLayer {
 protected:

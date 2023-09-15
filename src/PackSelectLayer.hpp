@@ -1,14 +1,14 @@
 #pragma once
 
-#include <Geode/DefaultInclude.hpp>
+#include <Sapphire/DefaultInclude.hpp>
 #include <cocos2d.h>
-#include <Geode/ui/ScrollLayer.hpp>
+#include <Sapphire/ui/ScrollLayer.hpp>
 #include "Pack.hpp"
 #include "PackManager.hpp"
 
 class PackNode;
 
-using namespace geode::prelude;
+using namespace sapphire::prelude;
 
 class PackSelectLayer : public CCLayer {
 protected:

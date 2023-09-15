@@ -4,13 +4,13 @@
 #include <optional>
 #include <ghc/filesystem.hpp>
 #include <memory>
-#include <Geode/utils/Result.hpp>
-#include <Geode/utils/VersionInfo.hpp>
-#include <Geode/ui/EnterLayerEvent.hpp>
+#include <Sapphire/utils/Result.hpp>
+#include <Sapphire/utils/VersionInfo.hpp>
+#include <Sapphire/ui/EnterLayerEvent.hpp>
 #include "Edit.hpp"
 #include <json/stl_serialize.hpp>
 
-using namespace geode::prelude;
+using namespace sapphire::prelude;
 
 struct PackInfo {
     VersionInfo m_textureldr;

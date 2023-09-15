@@ -1,10 +1,10 @@
 #include "Edit.hpp"
-#include <Geode/utils/general.hpp>
-#include <Geode/loader/Log.hpp>
-#include <Geode/utils/cocos.hpp>
-#include <Geode/utils/string.hpp>
-#include <Geode/ui/EnterLayerEvent.hpp>
-#include <Geode/utils/file.hpp>
+#include <Sapphire/utils/general.hpp>
+#include <Sapphire/loader/Log.hpp>
+#include <Sapphire/utils/cocos.hpp>
+#include <Sapphire/utils/string.hpp>
+#include <Sapphire/ui/EnterLayerEvent.hpp>
+#include <Sapphire/utils/file.hpp>
 
 #define PARSE_ATTR(name, type) \
     if (auto attr = node.attribute(#name)) {\

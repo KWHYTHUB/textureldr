@@ -3,12 +3,12 @@
 #include <string>
 #include <optional>
 #include <vector>
-#include <Geode/utils/Result.hpp>
-#include <Geode/ui/EnterLayerEvent.hpp>
+#include <Sapphire/utils/Result.hpp>
+#include <Sapphire/ui/EnterLayerEvent.hpp>
 #include <ghc/filesystem.hpp>
 #include <cocos2d.h>
 
-using namespace geode::prelude;
+using namespace sapphire::prelude;
 
 struct NodeEdit : public std::enable_shared_from_this<NodeEdit> {
     NodeEdit* m_parent = nullptr;

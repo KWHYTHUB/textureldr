@@ -1,10 +1,10 @@
 #pragma once
 
-#include <Geode/binding/CCMenuItemSpriteExtra.hpp>
+#include <Sapphire/binding/CCMenuItemSpriteExtra.hpp>
 #include "Pack.hpp"
 #include <functional>
 
-using namespace geode::prelude;
+using namespace sapphire::prelude;
 
 class PackSelectLayer;
 

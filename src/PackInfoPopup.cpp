@@ -1,7 +1,7 @@
 #include "PackInfoPopup.hpp"
-#include <Geode/loader/Loader.hpp>
-#include <Geode/loader/Dirs.hpp>
-#include <Geode/binding/GameManager.hpp>
+#include <Sapphire/loader/Loader.hpp>
+#include <Sapphire/loader/Dirs.hpp>
+#include <Sapphire/binding/GameManager.hpp>
 
 class WackyBypassFont : public CCLabelBMFont {
 protected:

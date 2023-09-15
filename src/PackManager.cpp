@@ -1,14 +1,14 @@
 #include "PackManager.hpp"
-#include <Geode/loader/Mod.hpp>
-#include <Geode/loader/ModEvent.hpp>
-#include <Geode/loader/ModJsonTest.hpp>
-#include <Geode/loader/Loader.hpp>
-#include <Geode/utils/file.hpp>
-#include <Geode/utils/map.hpp>
-#include <Geode/utils/ranges.hpp>
-#include <Geode/binding/GameManager.hpp>
+#include <Sapphire/loader/Mod.hpp>
+#include <Sapphire/loader/ModEvent.hpp>
+#include <Sapphire/loader/ModJsonTest.hpp>
+#include <Sapphire/loader/Loader.hpp>
+#include <Sapphire/utils/file.hpp>
+#include <Sapphire/utils/map.hpp>
+#include <Sapphire/utils/ranges.hpp>
+#include <Sapphire/binding/GameManager.hpp>
 
-using namespace geode::prelude;
+using namespace sapphire::prelude;
 
 PackManager* PackManager::get() {
     static auto inst = new PackManager;

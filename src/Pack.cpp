@@ -1,7 +1,7 @@
 #include "Pack.hpp"
-#include <Geode/utils/JsonValidation.hpp>
-#include <Geode/loader/Loader.hpp>
-#include <Geode/utils/file.hpp>
+#include <Sapphire/utils/JsonValidation.hpp>
+#include <Sapphire/loader/Loader.hpp>
+#include <Sapphire/utils/file.hpp>
 
 Result<PackInfo> PackInfo::from(json::Value const& json) {
     auto info = PackInfo();
